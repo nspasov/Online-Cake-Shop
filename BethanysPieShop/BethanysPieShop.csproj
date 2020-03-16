@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200107093843_InitialMigration.cs" />
+    <Compile Remove="Migrations\20200107093843_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200107095626_SeedDataAdded.cs" />
+    <Compile Remove="Migrations\20200107095626_SeedDataAdded.Designer.cs" />
+    <Compile Remove="Migrations\20200107111545_NotesAddedOnPie.cs" />
+    <Compile Remove="Migrations\20200107111545_NotesAddedOnPie.Designer.cs" />
+    <Compile Remove="Migrations\20200107134929_ShoppingCartAdded.cs" />
+    <Compile Remove="Migrations\20200107134929_ShoppingCartAdded.Designer.cs" />
+    <Compile Remove="Migrations\20200107135323_ShoppingCartAddedCorrectly.cs" />
+    <Compile Remove="Migrations\20200107135323_ShoppingCartAddedCorrectly.Designer.cs" />
+    <Compile Remove="Migrations\20200109125816_orders.cs" />
+    <Compile Remove="Migrations\20200109125816_orders.Designer.cs" />
+    <Compile Remove="Migrations\20200110113436_Identity.cs" />
+    <Compile Remove="Migrations\20200110113436_Identity.Designer.cs" />
+    <Compile Remove="Migrations\20200316113553_MovedToLaptop.cs" />
+    <Compile Remove="Migrations\20200316113553_MovedToLaptop.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
